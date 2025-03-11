@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: application2-config  # Unique service name
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/  # Eureka Server URL
+    register-with-eureka: true   # Register service to Eureka
+    fetch-registry: true         # Enable service discovery
+  instance:
+    prefer-ip-address: true      # Uses IP instead of hostname
