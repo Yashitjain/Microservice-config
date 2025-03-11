@@ -1,6 +1,6 @@
 spring:
   application:
-    name: application1-config  # Unique service name
+    name: application-default  # Unique service name
 
 eureka:
   client:
